@@ -169,6 +169,7 @@ contract("Token", ([deployer, receiver, exchange]) => {
       });
     });
 
+    //Testing failures
     describe("failure", async () => {
       it("rejects insufficient amounts", async () => {
         // Attempt transfer too many tokens
